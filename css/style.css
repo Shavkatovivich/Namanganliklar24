@@ -27,6 +27,13 @@ img {
     height: auto;
 }
 
+/* OUTLINE STYLES  */
+
+*:focus {
+    outline: 2px dashed #7296ec;
+    outline-offset: 3px;
+}
+
 /* BUTTON  */
 
 .button {
@@ -64,11 +71,6 @@ img {
     margin-right: auto; 
 }
 
-/* SITE-HEADER  */
-
-.site-header {
-}
-
 /* SITE-HEADER-TOP  */
 
 .site-header-top {
@@ -80,8 +82,7 @@ img {
     display: flex;
     align-items: center;
 }
-.container {
-}
+
 .site-header-logo {
     display: flex;
     padding: 8px 6px;
@@ -112,7 +113,22 @@ img {
 .currency-rates-type {
     color: #2959CE;
 }
-.currency-rates-value {
+
+/* GLOBAL-SEARCH-FORM  */
+
+.global-search-form {
+    margin-right: 25px;
+}
+
+.global-search-form-input {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    border: 0;
+    border-radius: 60px;
+    font-size: 14px;
+    line-height: normal;
 }
 
 /* LANG TOGGLE  */
