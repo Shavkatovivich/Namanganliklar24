@@ -40,11 +40,13 @@ img {
     display:inline-block;
     padding: 13px 20px;
     border-radius: 10px;
+    border:0;
     font-size: 16px;
     line-height: normal;
     font-weight: 500;
     text-decoration: none;
     text-align: center;
+    cursor: pointer;
 }
 
 .button-primary {
@@ -52,11 +54,17 @@ img {
     background-color: rgba(114, 150, 236, 1);
 } 
 
-.button-primary:hover {
+.button-orange {
+    padding: 13px 30px;
+    background-color: #F78B3B;
+    color: #fff;
+} 
+
+.button:hover {
     opacity: 0.8;
 }
 
-.button-primary:active {
+.button:active {
     opacity: 0.6;
 }
 
@@ -279,5 +287,20 @@ img {
     line-height: normal;
     color: #5E5F61;
 }
-.article-card-source {
+
+/* NOTIFACITION-CTA  */
+
+.notifaciation-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 70px 25px 25px;
+    margin: 60px 75px;
+    background-color:#ffd7ba;
+}
+.notifaciation-cta-text {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #000;
 }
